@@ -1,0 +1,17 @@
+
+### Cleaning and Getting Data course project
+
+An analysis of accelerometer data generated from an experiment with Samsung Galaxy S smartphones.
+Contents
+
+- data - This folder contain source of project decribed on it README.txt file
+- run_analysis.R - R script to merge, clean-up, transform, and summarize the experiment data.
+- Analisis.txt -This file contains the result of the analisis
+- Readme.Rmd - This file.
+- CoockBoock.Rmd - Codebooks with the data to indicate all the variables and summaries calculated.
+
+### Getting started
+
+-    Read through the CodeBook and the run_analysis.R script to get a general understanding of this project, the steps taken in the analysis, and the output file.
+-    Download or clone the project 
+-    Load project into Rstudio and run run_analysis.R script.

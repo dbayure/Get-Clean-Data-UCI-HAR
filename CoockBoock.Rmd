@@ -1,0 +1,113 @@
+## Getting and Cleaning Data Course Project
+
+The purpose of this project is to demonstrate student ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
+
+### Analysis process
+
+The run_analysis.R script executes the following five tasks and generates the Analisis.txt file with the analysis result.
+
+- 1 Merges the training and the test sets to create one data set.
+- 2 Extracts only the measurements on the mean and standard deviation for each measurement.
+- 3 Uses descriptive activity names to name the activities in the data set
+- 4 Appropriately labels the data set with descriptive variable names.
+- 5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+### Columns in output file
+
+- "Subject" -> The id of the experiment participant.
+- "Activity" -> The name of the activity that the measurements correspond (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+
+All of the following fields represent the mean of recorded data points for the given subject and activity described in the file features_info.txt.
+
+- "TimeBodyAccelerometer.mean...X"
+- "TimeBodyAccelerometer.mean...Y"
+- "TimeBodyAccelerometer.mean...Z"
+- "TimeGravityAccelerometer.mean...X"
+- "TimeGravityAccelerometer.mean...Y"
+- "TimeGravityAccelerometer.mean...Z"
+- "TimeBodyAccelerometerJerk.mean...X"
+- "TimeBodyAccelerometerJerk.mean...Y"
+- "TimeBodyAccelerometerJerk.mean...Z"
+- "TimeBodyGyroscope.mean...X"
+- "TimeBodyGyroscope.mean...Y"
+- "TimeBodyGyroscope.mean...Z"
+- "TimeBodyGyroscopeJerk.mean...X"
+- "TimeBodyGyroscopeJerk.mean...Y"
+- "TimeBodyGyroscopeJerk.mean...Z"
+- "TimeBodyAccelerometerMagnitude.mean.."
+- "TimeGravityAccelerometerMagnitude.mean.."
+- "TimeBodyAccelerometerJerkMagnitude.mean.."
+- "TimeBodyGyroscopeMagnitude.mean.."
+- "TimeBodyGyroscopeJerkMagnitude.mean..
+- "FrequencyBodyAccelerometer.mean...X"
+- "FrequencyBodyAccelerometer.mean...Y"
+- "FrequencyBodyAccelerometer.mean...Z"
+- "FrequencyBodyAccelerometer.meanFreq...X"
+- "FrequencyBodyAccelerometer.meanFreq...Y"
+- "FrequencyBodyAccelerometer.meanFreq...Z"
+- "FrequencyBodyAccelerometerJerk.mean...X"
+- "FrequencyBodyAccelerometerJerk.mean...Y"
+- "FrequencyBodyAccelerometerJerk.mean...Z"
+- "FrequencyBodyAccelerometerJerk.meanFreq...X"
+- "FrequencyBodyAccelerometerJerk.meanFreq...Y"
+- "FrequencyBodyAccelerometerJerk.meanFreq...Z"
+- "FrequencyBodyGyroscope.mean...X"
+- "FrequencyBodyGyroscope.mean...Y"
+- "FrequencyBodyGyroscope.mean...Z"
+- "FrequencyBodyGyroscope.meanFreq...X"
+- "FrequencyBodyGyroscope.meanFreq...Y"
+- "FrequencyBodyGyroscope.meanFreq...Z"
+- "FrequencyBodyAccelerometerMagnitude.mean.."
+- "FrequencyBodyAccelerometerMagnitude.meanFreq.."
+- "FrequencyBodyAccelerometerJerkMagnitude.mean.."
+- "FrequencyBodyAccelerometerJerkMagnitude.meanFreq.."
+- "FrequencyBodyGyroscopeMagnitude.mean.."
+- "FrequencyBodyGyroscopeMagnitude.meanFreq.."
+- "FrequencyBodyGyroscopeJerkMagnitude.mean.."
+- "FrequencyBodyGyroscopeJerkMagnitude.meanFreq.."
+- "Angle.TimeBodyAccelerometerMean.Gravity."
+- "Angle.TimeBodyAccelerometerJerkMean..GravityMean."
+- "Angle.TimeBodyGyroscopeMean.GravityMean."
+- "Angle.TimeBodyGyroscopeJerkMean.GravityMean."
+- "Angle.X.GravityMean."
+- "Angle.Y.GravityMean."
+- "Angle.Z.GravityMean."
+- "TimeBodyAccelerometer.std...X"
+- "TimeBodyAccelerometer.std...Y"
+- "TimeBodyAccelerometer.std...Z"
+- "TimeGravityAccelerometer.std...X"
+- "TimeGravityAccelerometer.std...Y"
+- "TimeGravityAccelerometer.std...Z"
+- "TimeBodyAccelerometerJerk.std...X"
+- "TimeBodyAccelerometerJerk.std...Y"
+- "TimeBodyAccelerometerJerk.std...Z"
+- "TimeBodyGyroscope.std...X"
+- "TimeBodyGyroscope.std...Y"
+- "TimeBodyGyroscope.std...Z"
+- "TimeBodyGyroscopeJerk.std...X"
+- "TimeBodyGyroscopeJerk.std...Y"
+- "TimeBodyGyroscopeJerk.std...Z"
+- "TimeBodyAccelerometerMagnitude.std.."
+- "TimeGravityAccelerometerMagnitude.std.."
+- "TimeBodyAccelerometerJerkMagnitude.std.."
+- "TimeBodyGyroscopeMagnitude.std.."
+- "TimeBodyGyroscopeJerkMagnitude.std.."
+- "FrequencyBodyAccelerometer.std...X"
+- "FrequencyBodyAccelerometer.std...Y"
+- "FrequencyBodyAccelerometer.std...Z"
+- "FrequencyBodyAccelerometerJerk.std...X"
+- "FrequencyBodyAccelerometerJerk.std...Y"
+- "FrequencyBodyAccelerometerJerk.std...Z"
+- "FrequencyBodyGyroscope.std...X"
+- "FrequencyBodyGyroscope.std...Y"
+- "FrequencyBodyGyroscope.std...Z"
+- "FrequencyBodyAccelerometerMagnitude.std.."
+- "FrequencyBodyAccelerometerJerkMagnitude.std.."
+- "FrequencyBodyGyroscopeMagnitude.std.."
+- "FrequencyBodyGyroscopeJerkMagnitude.std.."
+
+    
+    
+    
+    
+    
